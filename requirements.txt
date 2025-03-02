@@ -1,0 +1,24 @@
+# PyTorch with CUDA 12.1
+torch==2.1.0+cu121  -f https://download.pytorch.org/whl/torch_stable.html
+torchvision==0.16.0+cu121  -f https://download.pytorch.org/whl/torch_stable.html
+torchaudio==2.1.0+cu121  -f https://download.pytorch.org/whl/torch_stable.html
+
+# Machine Learning & Data Processing
+numpy==1.23.5
+pandas==1.5.3
+scikit-learn==1.2.2
+matplotlib==3.6.3
+seaborn==0.12.2
+
+# Deep Learning Utilities
+torchsummary==1.5.1
+torchmetrics==1.0.1
+
+# Model Deployment
+streamlit==1.12.2
+fastapi==0.95.1
+uvicorn==0.22.0
+
+# Miscellaneous
+tqdm==4.64.1
+joblib==1.2.0
